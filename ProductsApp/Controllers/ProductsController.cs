@@ -16,6 +16,9 @@ namespace ProductsApp.Controllers
             new Product { Id = 3, Name = "Hammer", Category = "Hardware", Price = 16.99M }
         };
 
+      
+
+
         public IEnumerable<Product> GetAllProducts()
         {
             return products;

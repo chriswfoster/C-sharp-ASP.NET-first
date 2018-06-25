@@ -16,8 +16,8 @@ namespace ProductsApp
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
-                routeTemplate: "api/{controller}/{id}",
-                defaults: new { id = RouteParameter.Optional }
+                routeTemplate: "api/{controller}/{id}",  // do you strictly tie it to the class? 
+                defaults: new { id = RouteParameter.Optional } // find out what this does.
             );
         }
     }
