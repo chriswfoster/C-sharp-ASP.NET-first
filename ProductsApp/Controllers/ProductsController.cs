@@ -9,7 +9,7 @@ namespace ProductsApp.Controllers
 {
     public class ProductsController : ApiController
     {
-        Product[] products = new Product[]
+        Product[] products = new Product[] // products are stored in a fixed array inside the controller class. Not using a database here.
         {
             new Product { Id = 1, Name = "Tomato Soup", Category = "Groceries", Price = 1 },
             new Product { Id = 2, Name = "Yo-yo", Category = "Toys", Price = 3.75M },
